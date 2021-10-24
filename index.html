@@ -66,15 +66,28 @@
         padding: 15px;
         color: white;
         text-decoration: none;
-        font-family: 'Roboto', sans-serif;
         border-radius: 50px;
         animation: bounceInDown;
         animation-duration: 3s;
     }
 
-    #whats img {
+    #uber {
+        position: fixed;
+        bottom: 20px;
+        left: 100px;
+        padding: 15px;
+        color: white;
+        text-decoration: none;
+        animation: bounceInDown;
+        animation-duration: 3s;
+    }
+
+    #whats img,
+    #uber img {
         width: 80px;
         height: 80px;
+        border-radius: 50%;
+
     }
 </style>
 
@@ -86,6 +99,11 @@
 
     <img src="./images/dos.jpg" alt="">
     <a id="whats" href="https://rappi.app.link/n760CwpHxkb"> <img src="./images/rappilogoo.png"></a>
+    <a id='uber'
+        href="https://www.order.store/queretaro/food-delivery/bt-a-la-chicken-burger/o-mK6xuhSl2vOFJlPYbDiw/?utm_source=web-restaurant-manager"
+        rel="noopener noreferrer" target="_blank"><img height="48px" src="./images/UberEats.png" alt="orderonline"><img
+            style="display:none"
+            src="https://restaurant.uber.com/tracking?restaurantUUID=a3e98aeb-1ba1-4a5d-af38-52653d86c38b" /> </a>
     <div>
         <p id="yellow">Todas nuestras Burgers incluyen papas a la francesa hechas en casa.</p>
     </div>
@@ -94,6 +112,7 @@
     <img src="./images/3.jpg" alt="">
     <img id="veggie" src="./images/4.jpg" alt="">
     <img src="./images/5.jpg" alt="">
+
 </body>
 
 </html>
